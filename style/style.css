@@ -349,18 +349,244 @@ width: 100%;
         align-items: center;
         width: 110px;
     }
+    .langue{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 110px;
+    }
+.lang-icon{
+    display:inline-block;
+    vertical-align: middle;
+    background-image: url(https://m.media-amazon.com/images/S/sash/4KY1PiWMSEktM92.png);
+    height: 24px;
+    width: 24px;
+background-position: -158px -2px;
+
+}
+.Publication{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+.pub-icon{
+    display:inline-block;
+    vertical-align: middle;
+    background-image: url(https://m.media-amazon.com/images/S/sash/4KY1PiWMSEktM92.png);
+    height: 24px;
+    width: 24px;
+    background-position: -262px -2px;
+
+
+}
+.Dimensions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+.dim-icon{
+    display:inline-block;
+    vertical-align: middle;
+    background-image: url(https://m.media-amazon.com/images/S/sash/4KY1PiWMSEktM92.png);
+    height: 24px;
+    width: 24px;
+    background-position: -2px -2px;
+
+
+}
+.isbn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+
+
+}
+.isb-icon{
+    display:inline-block;
+    vertical-align: middle;
+    background-image: url(https://m.media-amazon.com/images/S/sash/4KY1PiWMSEktM92.png);
+    height: 24px;
+    width: 24px;
+    background-position: -132px -2px;
+
+
+}
+.arrow-btn{
+    height: 18px;
+    width: 30px;
+    background-color: whitesmoke;
+}
+.bottom-icon-img{
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
     .bottom-icon-img{
         display: flex;
         align-items: center;
         text-align: center;
     }
-    @media screen and (max-width: 700px){
-header{
+    .kindle-icon{
+        width: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .kindle{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20%;
+        border-radius: 4px;
+        box-shadow:  0 0 0 4px rgba(0,0,0,.1);;
+    }
+    .read-with{
+        color: black;
+        background-color: orange;
+        text-decoration: none;
+    }
+.buy-new{
+    border-radius: 8px;
+    padding: 14px 18px;
+    box-shadow:  0 0 0 4px rgba(0,0,0,.1);;
     display: flex;
-    width: 100%;
+    flex-direction: column;
+
+}
+.buy-option{
+    display: flex;
     flex-direction: column;
 }
-.main-nav{
-    width: 100%;
+.priceandbuy{
+    display: flex;
 }
+.loc-icon{
+    min-width: 16px;
+    height: 14px;
+    float: left;
+    background-image: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.in-stock{
+    color: green;
+}
+.select-qty{
+    width: 50px;
+    border-radius: 10px;
+}
+.sub1{
+background-color:  orange;
+}
+.sub2{
+    background-color: orangered;
+
+}
+.ships{
+    display: flex;
+}
+.chbackground-imageeckbox{
+    border-bottom: 1px solid black;
+}
+.add-to{
+    margin-top: 8px;
+}
+.email-img{
+    background-image:url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 17px;
+   background-position:  -256px -220px;
+
+}
+.facebook-img{
+    background-image:url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+   background-position:  -193px -105px;
+
+
+}
+.twite{
+    background-image:url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+   background-position:  -237px -151px;
+
+
+}
+.pinterest{
+    background-image:url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+   background-position:  -138px -14px;
+
+}
+.share{
+    display: flex;
+    justify-content: space-around;
+}
+.bookclub{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 0 4px rgba(0,0,0,.1);;
+    border-radius: 5px;
+
+}
+.book-club-img{
+    width: 100%;
+    height: 100%;
+
+}
+    @media screen and (min-width:300px ) and (max-width:700px){
+      html,  boddy{
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            display: flex;
+            width: auto;
+            flex-direction: column;
+            font-size: 10px;
+        }
+        
+.main-nav{
+    font-size: 10px;
+    width: auto;
+}
+main{
+    flex-direction: column;
+    width: auto;
+}
+.img-location{
+    
+    height: 25%;
+}
+.note-nav{
+    font-size: 10px;
+}
+.last-header{
+    font-size: 8px;
+    justify-content: space-between
+}
+.text-aria{
+    margin-left: 0;
+    font-size: 15px;
+}
+.left{
+    width: auto;
+}
+
     }
